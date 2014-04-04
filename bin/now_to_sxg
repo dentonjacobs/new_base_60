@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'new_base_60'
+now = Time.now.to_i
+days = now / 86400
+s = days.to_i.to_sxg
+puts s
